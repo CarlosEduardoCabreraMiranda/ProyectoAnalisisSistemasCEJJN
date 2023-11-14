@@ -1,0 +1,58 @@
+Informe de Documentación: Implementación de Scrum en el Proyecto Televigilancia
+
+Fecha: 13/11/2023.
+
+Este informe detalla la planificación y la implementación del marco de trabajo Scrum en el proyecto Televigilancia. Scrum es una metodología ágil que proporciona una estructura para la gestión de proyectos, permitiendo entregas iterativas y rápidas adaptaciones a los cambios en los requisitos del cliente.
+
+1. Objetivo del Proyecto:**
+
+Desarrollar un Crud desplegable en la web para la cotización de productos y servicios de esta empresa. Además poder gestionar los datos de los empleados de la misma.
+
+2. Justificación para la Adopción de Scrum:
+
+Scrum se ha elegido como marco de trabajo debido a su capacidad para gestionar proyectos de manera iterativa e incremental, facilitando una mayor flexibilidad y adaptabilidad a medida que se desarrollan los entregables del proyecto.
+
+3. Estructura del Equipo Scrum:
+
+Se ha formado un equipo Scrum multifuncional que incluye los siguientes roles:
+
+- Product Owner: Jesús Ariel González Bonilla.
+- Scrum Master: Carlos Eduardo Cabrera Miranda.
+- Equipo de Desarrollo: Juan José Urbano Perdomo y Nicolás Ruiz Alarcón.
+
+4. Artefactos de Scrum:
+
+Se utilizarán los siguientes artefactos de Scrum para gestionar el trabajo del proyecto:
+
+-Product Backlog: Lista priorizada de funcionalidades y requisitos del proyecto. 
+-Sprint Backlog: Conjunto de elementos seleccionados del Product Backlog para una iteración específica.
+-Incremento: Versión mejorada y potencialmente entregable del producto al final de cada Sprint.
+
+5. Eventos de Scrum:
+
+- Sprint Planning: La reunión al inicio de cada Sprint.
+ * Se realizó el dia 08/11/2023.
+- Daily Scrum: Esta sincronización se hace cada 3 días.
+ * Se realizó el dia 09/11/2023 (Se estableció que heramientas se iban a utilizar y se asigno algunas tareas)
+ * Se realizó el dia 12/11/2023. (Se pidio avances de las tareas asignadas anteriormente, dificultades y que es lo siguiente que se hará)
+- Sprint Review: Revisión del trabajo realizado al final de cada Sprint.
+ * La revisión del primer sprint se hizo el día 13/11/2023.
+- Sprint Retrospective: Reflexión y mejora continua al final de cada Sprint.
+
+6. Herramientas y Tecnologías de Apoyo:**
+
+Para facilitar la implementación de Scrum, se utilizarán las siguientes herramientas y tecnologías:
+
+- Herramienta de gestión de tareas y seguimiento: Trello.
+- Comunicación y colaboración: Whatsapp.
+- Herramientas para cambios en los archivos: git y GitHub.
+
+7. Cronograma de Sprints planificados: Se tendrá solamente 2 sprints durante el proyecto.
+
+- Pirmer Sprint: Se deberá hacer entrega de cada una de las tareas asignadas en el espacio de "Trello". Este primer sprint está programado para la fecha (13/11/2023).
+
+- Segundo Sprint: Los integrantes deberán revisar la entrega primer sprint con el fin de mejorar aspectos en el siguiente. Este segundo sprint está programado para la fecha (15/11/2023).
+
+8. Conclusión:
+
+La adopción de Scrum en el proyecto Televigilancia tiene como objetivo mejorar la eficiencia, la transparencia y la entrega de valor al cliente. Se espera que este marco de trabajo ágil permita una respuesta más rápida a los cambios en los requisitos y una entrega continua de productos de alta calidad.
