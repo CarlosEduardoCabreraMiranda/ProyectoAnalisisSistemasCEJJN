@@ -35,6 +35,7 @@ Se utilizarán los siguientes artefactos de Scrum para gestionar el trabajo del 
 - Daily Scrum: Esta sincronización se hace cada 3 días.
  * Se realizó el dia 09/11/2023 (Se estableció que heramientas se iban a utilizar y se asigno algunas tareas)
  * Se realizó el dia 12/11/2023. (Se pidio avances de las tareas asignadas anteriormente, dificultades y que es lo siguiente que se hará)
+ * Se realizó el dia 15/11/2023. (Se exigio la finalización de cada tarea antes del tiempo estipulado, además se establecio los guiones para el elevator pitch)
 - Sprint Review: Revisión del trabajo realizado al final de cada Sprint.
  * La revisión del primer sprint se hizo el día 13/11/2023.
 - Sprint Retrospective: Reflexión y mejora continua al final de cada Sprint.
