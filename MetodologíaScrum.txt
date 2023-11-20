@@ -54,6 +54,15 @@ Para facilitar la implementación de Scrum, se utilizarán las siguientes herram
 
 - Segundo Sprint: Los integrantes deberán revisar la entrega primer sprint con el fin de mejorar aspectos en el siguiente. Este segundo sprint está programado para la fecha (15/11/2023).
 
+- Tercer Sprint: Los integrantes deberán revisar y mejorar otros aspectos de la aplicación segun la guia del instructor
+con el fin de consolidar aspectos finales del proyecto. Este segundo sprint está programado para la fecha (19/11/2023).
+
 8. Conclusión:
 
 La adopción de Scrum en el proyecto Televigilancia tiene como objetivo mejorar la eficiencia, la transparencia y la entrega de valor al cliente. Se espera que este marco de trabajo ágil permita una respuesta más rápida a los cambios en los requisitos y una entrega continua de productos de alta calidad.
+
+9. Notas posteriores a su finalización: 
+- Se planifico de forma correcta la aplicacion.
+- Se modelo la base de datos de forma correcta.
+- Se fueron documentando los cambios de forma ordenada.
+- Se subio un acta para tener constancia de la finalización del proyecto.
