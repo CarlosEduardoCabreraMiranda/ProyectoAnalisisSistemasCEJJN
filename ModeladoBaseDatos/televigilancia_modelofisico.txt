@@ -1,0 +1,102 @@
+CREATE DATABASE analisis_sistemas;
+
+CREATE TABLE rol(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR (20) NOT NULL);
+
+CREATE TABLE usuario(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+user VARCHAR (20) NOT NULL,
+password VARCHAR (20) NOT NULL,
+codigo_rol INTEGER,
+FOREIGN KEY (codigo_rol) REFERENCES rol(id));
+
+CREATE TABLE direccion(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+nombre_calle VARCHAR(20) NOT NULL,
+numero_vivienda VARCHAR(10) NOT NULL,
+codigo_postal VARCHAR(8) NOT NULL);
+
+CREATE TABLE empleado(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+primer_nombre VARCHAR(30) NOT NULL,
+segundo_nombre VARCHAR(30),
+primer_apellido VARCHAR(30) NOT NULL,
+segundo_apellido VARCHAR(30),
+fecha_nacimiento DATE,
+telefono VARCHAR(10) NOT NULL,
+email VARCHAR(20) UNIQUE,
+fecha_ingreso DATE NOT NULL,
+cargo VARCHAR(20) NOT NULL,
+salario FLOAT(10,2) NOT NULL,
+codigo_direccion INTEGER,
+codigo_user INTEGER,
+FOREIGN KEY (codigo_direccion) REFERENCES direccion(id),
+FOREIGN KEY (codigo_user) REFERENCES usuario(id));
+
+CREATE TABLE cliente(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+primer_nombre VARCHAR(30) NOT NULL,
+segundo_nombre VARCHAR(30),
+primer_apellido VARCHAR(30) NOT NULL,
+segundo_apellido VARCHAR(30),
+fecha_nacimiento DATE,
+telefono VARCHAR(10) NOT NULL,
+email VARCHAR(20) UNIQUE,
+ocupacion VARCHAR(20) NOT NULL,
+codigo_direccion INTEGER,
+FOREIGN KEY (codigo_direccion) REFERENCES direccion(id));
+
+CREATE TABLE tipo_servicio(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(30) NOT NULL,
+descripcion TEXT NOT NULL);
+
+CREATE TABLE servicio(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+fecha_servicio DATE,
+duracion_minutos INTEGER NOT NULL,
+costo_hora FLOAT(10,2) NOT NULL,
+valor_total FLOAT(10,2) NOT NULL,
+codigo_tipo_servicio INTEGER,
+codigo_cliente INTEGER,
+FOREIGN KEY (codigo_tipo_servicio) REFERENCES tipo_servicio(id),
+FOREIGN KEY (codigo_cliente) REFERENCES cliente(id));
+
+CREATE TABLE asignacion_servicio(
+codigo_servicio INTEGER,
+codigo_empleado INTEGER,
+PRIMARY KEY (codigo_servicio, codigo_empleado),
+FOREIGN KEY (codigo_servicio) REFERENCES servicio(id),
+FOREIGN KEY (codigo_empleado) REFERENCES empleado(id));
+
+CREATE TABLE venta(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+fecha_compra DATE,
+codigo_cliente INTEGER,
+FOREIGN KEY (codigo_cliente) REFERENCES cliente(id));
+
+CREATE TABLE categoria(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR (20) NOT NULL);
+
+CREATE TABLE producto(
+id INTEGER AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(20) NOT NULL,
+marca VARCHAR(20) NOT NULL,
+costo_unidad FLOAT(10,2) NOT NULL,
+caracteristicas TEXT NOT NULL,
+GARANTIA varchar(10),
+referencia VARCHAR(50) UNIQUE,
+codigo_categoria INTEGER,
+FOREIGN KEY (codigo_categoria) REFERENCES categoria(id));
+
+CREATE TABLE detalle_venta(
+codigo_producto INTEGER,
+codigo_venta INTEGER,
+PRIMARY KEY (codigo_producto, codigo_venta),
+FOREIGN KEY (codigo_producto) REFERENCES producto(id),
+FOREIGN KEY (codigo_venta) REFERENCES venta(id));
+
+
+
