@@ -1,19 +1,32 @@
-# ProyectoAnalisisSistemas (Televigilancia)
-## ¡Bienvenido a nuestro proyecto de Análisis de Sistemas!
+# Proyecto de Análisis de Sistemas - Televigilancia
 
-Estamos encantados de tenerte a bordo y emocionados por la aventura que nos espera. Aquí en nuestro equipo, estamos comprometidos con la excelencia y la colaboración, y cada contribución cuenta.
+¡Bienvenido a nuestro emocionante proyecto de Análisis de Sistemas para Televigilancia!
 
-Este proyecto es más que líneas de código; es un esfuerzo colectivo para planificar algo significativo. Estamos construyendo no solo conocimientos, sino también habilidades y relaciones estudiantiles duraderas.
+En este equipo, estamos comprometidos con la excelencia y la colaboración, valorando cada contribución para construir algo significativo. Este proyecto no solo se trata de líneas de código; representa un esfuerzo colectivo para planificar e implementar soluciones innovadoras.
 
-No importa si eres un veterano experimentado o un novato entusiasta; todos estamos aquí para aprender, crecer y tener éxito juntos. La diversidad de habilidades y perspectivas enriquece nuestro proyecto, así que no dudes en compartir tus ideas y preguntas.
+## Objetivo del Proyecto
 
-Recuerda, cada desafío es una oportunidad de aprendizaje, y cada error es un paso más hacia la mejora. La comunicación abierta es clave, así que no dudes en expresar tus ideas y contribuir con tu experiencia.
+El objetivo principal de nuestro proyecto es desarrollar un sistema de Televigilancia eficiente y confiable. Buscamos integrar conocimientos, habilidades y fomentar relaciones estudiantiles duraderas.
 
-Estamos ansiosos por ver cómo tus habilidades y creatividad se suman a este proyecto. ¡Que la programación, la innovación y el espíritu colaborativo nos guíen hacia el éxito!
+## Enfoque Colaborativo
 
-Bienvenido a bordo, ¡y que comience la planificación del proyecto! 🚀✨
+Independientemente de tu nivel de experiencia, ya seas un veterano experimentado o un novato entusiasta, todos estamos aquí para aprender, crecer y tener éxito juntos. Valoramos la diversidad de habilidades y perspectivas, así que no dudes en compartir tus ideas y preguntas.
 
-## Integrantes:
-### Juan José Urbano Perdomo.
-### Carlos Eduardo Cabrera Miranda.
-### Nicolas Ruiz Alarcón.
+## Principios del Proyecto
+
+1. **Aprendizaje Continuo:** Cada desafío es una oportunidad de aprendizaje.
+2. **Colaboración Abierta:** La comunicación abierta es clave para el éxito del proyecto.
+3. **Innovación:** Buscamos soluciones creativas y eficientes.
+4. **Respeto Mutuo:** Valoramos y respetamos las contribuciones de cada miembro del equipo.
+
+## Integrantes del Equipo
+
+- **Juan José Urbano Perdomo**
+- **Carlos Eduardo Cabrera Miranda**
+- **Nicolas Ruiz Alarcón**
+
+Estamos emocionados por ver cómo tus habilidades y creatividad contribuyen al éxito de este proyecto. ¡Que la programación, la innovación y el espíritu colaborativo nos guíen hacia el éxito!
+
+Bienvenido a bordo y que comience la planificación del proyecto! 🚀✨
+
+Link Trello: https://trello.com/b/3ieaIFqd/proyecto-an%C3%A1lisis-de-sistemas
